@@ -1,0 +1,81 @@
+body{
+    background-image: url("bg.jpg");
+}
+#curr_date {
+
+    font-size: 1.5em;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.calender-cell{
+    margin-top: 40px;
+    height: 87px;
+    cursor: pointer;
+}
+.calender{
+    font-size: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+}
+.btn{
+    color: whitesmoke !important;
+}
+.calender-day-cell{
+    height:87px;
+    color: black;
+    padding-left:1px !important;
+    padding-right:1px !important;
+}
+.calender-day-cell-heading{
+    background-color: blue;
+    border-radius: 10px;
+    border-spacing: 20px;
+}
+.calender-day-cell,.calender-month{
+    border-bottom:1px solid black;
+}
+.calender-day-cell-holiday{
+    color: darkgrey;
+}
+.calender-day-cell-holiday{
+    color: dimgrey;
+}
+.event-calender-row{
+    width:100%;
+    display: inline-flex;
+}
+.event-calender-day-cell{
+    width:14.857%
+}
+.calender-holiday{
+    font-size: 12px;
+    
+}
+.indian-holiday{
+    border-radius: 15px;
+    background-color:orange;
+}
+.dallas-holiday{
+    border-radius: 15px;
+    background-color:yellow;
+}
+.legend{
+    margin-top: 10px;
+    display: block;
+    height: 25px;
+    width: 25px;
+    
+}
+.legend-row{
+    display: inline-flex;
+
+}
+.legend-text{
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
